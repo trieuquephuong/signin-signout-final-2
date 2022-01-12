@@ -1,0 +1,75 @@
+img {
+	width: 200px;
+	margin: 20px;
+}
+h1 {
+	font-size: 24px;
+}
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+.box-info, form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;	
+}
+
+form, .welcome-box {
+  border: 1px solid #dddfe2;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+input, button {
+	width: 300px;
+	line-height: 30px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #dddfe2;
+	border-radius: 5px;
+}
+
+.box-info form a {
+	margin: 10px;
+	color: #365899;
+	text-decoration: none;
+}
+
+.box-info form a:hover {
+	margin: 10px;
+	color: #365899;
+	text-decoration: underline;
+}
+
+
+form .choose-gender {
+	display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+form .choose-gender input {
+	width: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+form .choose-gender p{
+	margin: 0px;
+
+}
+
+.personal-info .box-info form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 50px;	
+}
